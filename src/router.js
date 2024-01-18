@@ -29,10 +29,10 @@ const router = createRouter({
           component: () => import('./pages/dashboard'),
         },
         {
-          path: '/orders',
-          name: 'orders',
+          path: '/home',
+          name: 'home',
           meta: {
-            title: 'Đơn hàng',
+            title: 'Trang chủ',
             showNav: 1,
             // icon: 'inbox',
           },
@@ -43,8 +43,18 @@ const router = createRouter({
           name: 'products',
           meta: {
             title: 'Sản phẩm',
-            showNav: 2,
+            showNav: 1,
             icon: 'file-text',
+          },
+          component: () => import('./pages/products'),
+        },
+        {
+          path: '/orders',
+          name: 'orders',
+          meta: {
+            title: 'Đơn hàng',
+            showNav: 2,
+            // icon: 'inbox',
           },
           component: () => import('./pages/dashboard'),
         },
