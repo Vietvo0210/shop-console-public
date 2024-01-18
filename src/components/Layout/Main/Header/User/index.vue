@@ -1,7 +1,7 @@
 <template>
   <div class="user inline-flex items-center gap-2 px-4 py-2">
     <main-header-user-notification />
-    <img src="@/assets/img/avatar.png" alt="User" :width="32" :height="32" class="rounded-full" />
+    <img src="" alt="User" :width="32" :height="32" class="rounded-full" />
     <main-header-user-info />
   </div>
 </template>
