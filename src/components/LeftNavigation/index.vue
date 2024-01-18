@@ -25,8 +25,8 @@ const defaultOpenKey = ref('sub1');
 
 const items = [
   { key: '1', label: 'Item 1', children: [{ key: '43', label: 'Subitem 1' }, { key: '45', label: 'Subitem 2' }] },
-  { key: '2', label: 'Item 2' },
-  { key: '3', label: 'Item 3' },
+  { key: '2', label: 'Item 2', children: [{ key: '47', label: 'Subitem 1' }, { key: '48', label: 'Subitem 2' }]  },
+  { key: '3', label: 'Item 3', children: [{ key: '49', label: 'Subitem 1' }, { key: '59', label: 'Subitem 2' }]  },
   { key: '4', label: 'Item 4', children: [{ key: '41', label: 'Subitem 1' }, { key: '42', label: 'Subitem 2' }] },
 ];
 

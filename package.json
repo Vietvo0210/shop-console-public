@@ -9,7 +9,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "format": "npx prettier --write ."
+    "format": "npx prettier --write .",
+    "lint": "vue-cli-service lint"
   },
   "repository": {
     "type": "git",
@@ -56,6 +57,7 @@
     "@babel/core": "^7.23.2",
     "@babel/eslint-parser": "^7.22.15",
     "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/cli-service": "^5.0.8",
     "autoprefixer": "^10.4.13",
     "eslint": "^8.51.0",
     "eslint-plugin-vue": "^9.18.0",
@@ -70,7 +72,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,vue}": [
-      "vue-cli-service lint",
+      "yarn lint",
       "git add"
     ]
   }
