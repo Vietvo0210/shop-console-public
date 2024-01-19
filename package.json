@@ -64,6 +64,9 @@
     "sass": "^1.58.3",
     "vite": "^4.1.0"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
