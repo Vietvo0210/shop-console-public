@@ -19,6 +19,7 @@ export default defineConfig({
     exclude: ['js-big-decimal'],
   },
   build: {
+    chunkSizeWarningLimit: 1000,
     rollupOptions: {
       output: {
         manualChunks(id) {
@@ -37,3 +38,4 @@ export default defineConfig({
     },
   },
 })
+
