@@ -1,13 +1,13 @@
 <template>
   <div class="flex gap-5">
     <left-navigation />
-<!--    <a-table :columns="columns" :data-source="data">-->
-<!--      <template #bodyCell="{ column, text }">-->
-<!--        <template v-if="column.dataIndex === 'name'">-->
-<!--          <a>{{ text }}</a>-->
-<!--        </template>-->
-<!--      </template>-->
-<!--    </a-table>-->
+    <a-table :columns="columns" :data-source="data">
+      <template #bodyCell="{ column, text }">
+        <template v-if="column.dataIndex === 'name'">
+          <a>{{ text }}</a>
+        </template>
+      </template>
+    </a-table>
   </div>
 </template>
 
